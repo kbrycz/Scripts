@@ -10,17 +10,18 @@ This script allows you to download videos from YouTube in the highest available 
 
 Requirements:
 
-Python 3
-PyTube library
+- Python 3
+- PyTube library
+
 To install PyTube, run:
 
-'pip install pytube'
+```pip3 install pytube```
 
 ### Usage:
 
 Navigate to the directory containing the script and run it using Python, passing the YouTube video URL as an argument. For example:
 
-'''python youtubedl.py "https://www.youtube.com/watch?v=example"'''
+```python3 youtubedl.py "https://www.youtube.com/watch?v=example"```
 
 Replace https://www.youtube.com/watch?v=example with the URL of the video you want to download.
 
